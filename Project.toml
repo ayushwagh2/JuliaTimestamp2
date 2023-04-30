@@ -1,0 +1,16 @@
+name = "Tutorialapp1"
+uuid = "13ac9bc6-a4e1-4476-be4b-1fcc45b8bccf"
+authors = ["ayushwagh2 <69097173+ayushwagh2@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Genie = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
+Inflector = "6d011eab-0732-4556-8808-e463c76bf3b6"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"
+MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
+MySQL = "39abe10b-433b-5dbd-92d4-e302a9df00cd"
+SearchLight = "340e8cb6-72eb-11e8-37ce-c97ebeb32050"
+SearchLightSQLite = "21a827c4-482a-11ea-3a19-4d2243a4a2c5"
