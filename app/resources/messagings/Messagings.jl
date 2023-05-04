@@ -11,6 +11,8 @@ export Messaging
   msg::String = ""
   Sid::Int = 0
   Rid::Int = 0
+  hash::String = ""
+
   time::DateTime = now()
 end
 

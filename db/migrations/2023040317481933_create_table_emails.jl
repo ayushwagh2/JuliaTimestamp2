@@ -8,6 +8,7 @@ function up()
       column(:name, :string)
       column(:lastname, :string)
       column(:counter, :integer)
+      column(:counter, :integer)
       
     ]
   end

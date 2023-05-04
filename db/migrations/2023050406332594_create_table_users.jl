@@ -1,25 +1,23 @@
-module CreateTableMessagings
+module CreateTableUsers
 
 import SearchLight.Migrations: create_table, column, columns, pk, add_index, drop_table, add_indices
 
 function up()
-  create_table(:messagings) do
+  create_table(:users) do
+    
     [
       pk()
-      column(:msg, :string)
+   
       column(:hash, :string)
-      column(:Sid, :integer)
-      column(:Rid, :integer)
-      column(:time, :datetime)
-
+      column(:uid, :integer)
+   
     ]
   end
  
 end
 
 function down()
-  drop_table(:messagings)
+  drop_table(:users)
 end
 
 end
-

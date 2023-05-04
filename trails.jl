@@ -28,3 +28,15 @@ SearchLight.Migration.add_column(:emails, :counter, :integer)
 SearchLight.Migrations.status()
 
 
+
+m = 123
+n = hash(m)
+ 
+
+s = string(n)
+
+s
+
+
+
+

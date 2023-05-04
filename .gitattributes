@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+app/assets/* linguist-vendored
+public/* linguist-vendored
+*.jl.html linguist-language=HTML
