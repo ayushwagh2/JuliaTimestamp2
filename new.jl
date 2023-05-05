@@ -33,13 +33,16 @@ channel("/ayush/join") do
   return s
 end
 channel("/ayush/message") do
-  ws = params()[:WS_CLIENT]
+  a = params()[:WS_CLIENT]
+  h = hash(a)
+  s = string(h)
+  key = s
+   
   Rid = params()[:payload]["Rid"] 
   msg = params()[:payload]["msg"]
   Sid = params(:payload)["Sid"] 
-  key = params(:payload)["key"]
   value = find(User, uid=Sid, hash=key )
-   
+
   if  isempty(value)
     return "thsi is wrong "
   else
@@ -48,13 +51,4 @@ channel("/ayush/message") do
 
 
 end
-
-
-find(User) 
-# Sid=1
-# key=8408084129553639482
-
-# value1 = find(User, uid=Sid, hash=key )
-# isempty(value1)
  
-# Genie.WebChannels.Message("ayush","message", uid : 2 , msg : "message from 1")
